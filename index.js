@@ -1,4 +1,4 @@
-const API_URL = `http://api.darkbots.ru/method`
+sdsdconst API_URL = `http://api.darkbots.ru/method`
 
 const {
     request,
@@ -18,4 +18,4 @@ class API {
     }
 }
 
-module.exports = API
+exports = API
