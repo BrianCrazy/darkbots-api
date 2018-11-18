@@ -1,4 +1,4 @@
-sdsdconst API_URL = `http://api.darkbots.ru/method`
+const API_URL = `http://api.darkbots.ru/method`
 
 const {
     request,
