@@ -8,7 +8,6 @@ const {
 class API {
     constructor(key) {
         this.key = key
-        this.method = {}
     }
 
     async call(method, params) {
@@ -19,10 +18,4 @@ class API {
     }
 }
 
-const darkbots = new API('52bcfb126a7bc7a4a8fc0339d3525ee3')
-
-darkbots.call('users.get', {
-    vk_id: 493949683
-})
-    .then(console.log)
-    .catch(console.log)
+module.exports = API
